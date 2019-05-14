@@ -32,7 +32,7 @@ const pkgView = `
 <html>
 	<head>
 		<meta name="go-import" content="{{.host}}{{.pkg.Path}} {{.pkg.Vcs}} {{.pkg.Repo}}">
-		<title>gorepos - go.tuxychandru.com:9090/goaes</title>
+		<title>gorepos - {{.host}}{{.pkg.Path}}</title>
 	</head>
 	<body>
 		<h1>{{.host}}{{.pkg.Path}}</h1>
